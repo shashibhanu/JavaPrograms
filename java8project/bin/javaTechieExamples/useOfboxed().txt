@@ -1,0 +1,24 @@
+The use of `boxed()` in Java streams depends on the context and the operations you're performing. Here's a summary of cases where `boxed()` is required and cases where it's not required:
+
+**Required Use of `boxed()`**:
+
+1. **Stream Operations That Require Objects**: When you are performing stream operations that require objects rather than primitive types, you should use `boxed()`. Examples include:
+    - Sorting: When using `sorted()` with custom comparators.
+    - Filtering: When using `filter()` with complex conditions.
+    - Mapping: When using `map()` to transform elements into objects.
+    - Collecting: When using `Collectors.toMap()` and other collectors.
+  
+2. **Using Stream API with Reference Types**: When you're working with streams of reference types (e.g., `Stream<String>`), you don't need to use `boxed()` because you're already working with objects.
+
+**Not Required Use of `boxed()`**:
+
+1. **Stream Operations with Primitive Streams**: When working with primitive streams (e.g., `IntStream`, `LongStream`, `DoubleStream`) and performing operations that are designed to work directly with primitives, you typically do not need `boxed()`. Examples include:
+    - Mathematical Operations: Operations like `sum()`, `min()`, `max()`, and `average()` on primitive streams.
+    - Reduction: When using `reduce()` with primitive types.
+    - Numeric Ranges: When using `range()` or `rangeClosed()` from `IntStream`.
+    
+2. **Mapping to Primitives**: If you have a stream of wrapper objects (e.g., `Stream<Integer>`) and you want to extract primitive values, you can use `mapToInt()`, `mapToLong()`, or `mapToDouble()` instead of `boxed()`. These methods allow you to work directly with primitive values.
+
+3. **Using Stream API with Primitive Arrays**: When working with primitive arrays (e.g., `int[]`, `long[]`, `double[]`), you don't need `boxed()` because primitive arrays are not streams, and they inherently contain primitive values.
+
+In summary, you use `boxed()` when you want to convert primitive streams or primitive values into streams of objects, and you typically don't use it when you're working directly with primitive streams or primitive data types. The decision to use `boxed()` depends on the specific use case and the operations you are performing with streams.
