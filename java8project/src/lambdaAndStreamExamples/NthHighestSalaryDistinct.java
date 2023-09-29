@@ -1,4 +1,4 @@
-package lambdaExamples;
+package lambdaAndStreamExamples;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -46,4 +46,9 @@ public class NthHighestSalaryDistinct {
             System.out.println("There are not enough distinct salaries to find the " + nth + "th highest salary.");
         }
     }
+
+	@Override
+	public String toString() {
+		return "NthHighestSalaryDistinct [toString()=" + super.toString() + "]";
+	}
 }

@@ -8,8 +8,11 @@
 
 # @override annotation
 
+# Reflection API
+
 # Marker Interface -
-It is an empty interface (no field or methods). Examples of marker interface are Serializable, Cloneable and Remote interface. 
+Marker interface is generally Adjectives, it just helps in categorization of interfaces
+It is an empty interface (no field or methods). Examples of marker interface are Serializable, Cloneable, itestnglistener and Remote interface. 
 https://www.geeksforgeeks.org/marker-interface-java/?ref=lbp
 
 # three main packages: java.io, java.lang, java.util

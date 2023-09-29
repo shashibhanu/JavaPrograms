@@ -1,4 +1,4 @@
-package innerClassRelated;
+package designPatterns;
 
 public class LazyInnerClassSingleton {
 	

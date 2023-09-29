@@ -1,0 +1,121 @@
+task-1 Lambda Expressions
+**************************************
+
+Write the below programs with and without help of Lambda expressions
+1. Check if a given string is a palindrome
+2. Find the 2nd biggest number in the given list of numbers
+3. write a program to check if two strings are rotations of each other. I
+4. Use Runnable interface to start a new thread and print numbers from
+5. Use Comparator inerface to sort given list of numbers in reverse order Document 
+6. Use Comparator inerface to sort given list of Employees in the alphabetic order of their name 
+7. Create a TreeSet that sorts the given set of numbers in reverse order
+8. Create a TreeSet that sorts the given set of Employees in the alphabetic order of their name
+9. Create a TreeMap that sorts the given set of values in decending order
+10. Create a TreeMap that sorts the given set of employees in decending order of their name 
+11. Use Collections. Sort to sort the given list of Employees in decending order of their name
+
+
+
+task-2 Predicates
+***************************
+
+PreConditions
+Define a Product class with name, price, category, grade
+Define a Response class with response body, status code, response type 
+
+Predicates
+1. Define a predicate to check if the price of given product is greaterthan 1000/-. Print all the products from the given list of the products if the price is greaterthan 1eee/-.
+2. Define a predicate to check if the product is of electronics category. Print all the products from the given list of the products if the product is of electronics category.
+3. Print all the products from the given list of product if the product price is greaterthan 100/- which are in electronics category.
+4. Print all the products from the given list of product if the product price is greaterthan 100/- or product is in electronics category. 
+5. Print all the products from the given list of product if the product price is less than 100/- and product is in electronics category. 
+6. Define a predicate to check if the status code is 400. Print all the responses with status code 400 from the given list of responses. 
+7. Define a predicate to check if the response type JSON. Print all the responses the response type JSON from the given list of responses. 
+8. Print all the responses with status code 400 and response type JSON
+9. Print all the responses with status code 400 or response type JSON
+10. Print all the responses with status code is not 400 and response type JSON
+
+
+task-3 Functional interface
+***************************************
+
+PreConditions
+- Define a Product class with name, price, category, grade
+
+1. Write a function to calculate the cost of all products in a given list of products.
+2. Write a function to calculate the cost of all products whose prices is > 1000/- in the given list of products. Pictures 
+3. Write a function to calculate the cost of all electronic products in the given list of products.
+4. Write a function to get all the products whose price is is > 1000/- and belongs to electronic category.
+
+
+
+
+task-4 Consumer Supplier
+*********************************
+PreConditions
+- Define a Product class with name, price, category, grade
+
+Consumer
+1. Given a product write a consumer to print the product to appropriate medium depending on the print parameter. If the print parameter is set to file, consumer shall log the product to file, if not print on the console.
+2. Write a Consumer to update the grade of the product as 'Premium' if the price is > 1000/-. Given the product list, update the grade for each product and print all of the products.
+3. Write a Consumer to update the name of the product to be suffixed with * if the price of product is > 3000/-. Given the product list, update the name for each product and print all of the products.
+4. Print all the Premium grade products with name suffixed with '*'.
+
+Supplier
+1. Write a supplier to produce a random product.
+2. Write a supplier to produce a random OTP.
+
+
+task-5 Bi functional interface
+******************************************
+PreConditions
+Define a Product class with name, price, category, grade
+BiFunction
+1. Given the name and price of the product, write a Bifunction to create a product.
+2. Given the Product and quantity of the products, write a BiFunction to calculate the cost of products. A cart is a map of product and quantity. Given the cart, calculate the cost of the cart.
+
+
+
+task-6 Primitive Interfaces
+***************************************
+
+PreConditions
+- Define a Product class with name, price, category, grade
+
+1. Write an IntPredicate to verify if the given number is a primenumber 
+2. Write an IntConsumer to print square of the given number
+3. Write a IntSupplier to give random int below 5000.
+
+
+
+task-7 Constructor Reference
+***************************************
+﻿
+Constructor Reference
+1. Write a program get the details of Employee Object, such as name, account, salary, 
+where Employee class has parameterized constructor using constructor reference
+
+
+
+task-8 Streams
+**************************
+Pre condition
+
+Define a Product class with name, price, category, grade
+Define a Response class with response body, status code, response type
+
+1. From the given list of the products get all the products with price > 1000/-
+2. From the given list of the products get all the products from electronics category.
+3. From the given list of the products get all the products with price> 1000/- and from electronics category. Change the name of the result list into CAP letters before printing.
+4. Calculate the count of all electronic products in the given list of products.
+
+
+
+task-9 Date-time
+****************************
+﻿
+1. Write a predicate to check if the given date is yesterday date. Modules 
+2. Write a Supplier to get Date for next Thursday.
+3. Write a Supplier to get CurrentTime in EST timezone
+4. Write a Function to calculate the age of a person given date of birth.
+

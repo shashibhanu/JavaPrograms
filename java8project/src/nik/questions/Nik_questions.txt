@@ -1,0 +1,47 @@
+
+INTERMEDIATE OPERATIONS
+➤ filter
+➤ map
+➤ mapToDouble
+➤ mapTolnt
+➤ mapToLong
+➤ mapToObject
+➤ Sorted
+➤ FlatMap 
+➤ dropWhile
+
+TERMINAL OPERATIONS
+➤ collect 
+➤ count 
+➤ forEach
+➤ max
+➤ min
+➤ reduce
+
+
+
+1. Given a collection of Integer, find the max value in it.
+2. Given a collection of Integer, find the min value in it.
+3. Given a collection of Integer, find the size of the collection.
+4. Given a collection of Integer, find the size of even and odd numbers.
+5. Given a collection of Integer, find the even numbers that are a complete multiple of 4 and 6.
+6. Given a collection of Integer, find the first 3 odd numbers in sorted order.
+7. Given a collection of Integer, find the second max number from it.
+8. Given a collection of String, find the variables having A and E as starting and ending characters.
+10. Given a collection of String, find the distinct names in it.
+11. Given a match, given teams in it, count the total number of players in the match.
+12. Given a collection of Students, find the name of the topper student.
+13. Given a collection of Students, find the student having max roll no.
+
+Precondition:
+
+There happened to Cricket tournament. Tournament had four teams. Every team (players, team name, captain of type player) had seven players. Every player( name, total run scores in all the matches played, score in last match, wickets Taken).
+
+Find the name of the team whose captain's name start with H
+Increase the score of teamIndia by 10 runs for every player.
+Find the team name which has the player who has scored maximum until now
+Find the first 10 players in the match that scored highest.
+Find the players that have scored more than 80
+Find the list of the members that have scored century?
+Whether all the members in the match have scored more than 30 runs or not?? 
+Which bowler has taken the max number of wickets?

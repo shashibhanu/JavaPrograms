@@ -1,4 +1,4 @@
-package lambdaExamples;
+package lambdaAndStreamExamples;
 import java.util.function.BiFunction;
 
 public class Prog1Add2Numb {

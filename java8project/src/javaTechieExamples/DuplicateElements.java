@@ -5,6 +5,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class DuplicateElements {
+	//method 3 is best and simple
 	
     public static void main(String[] args) {
         String input = "Helloh, Wworld!";
